@@ -146,7 +146,8 @@ Enter our Flash Loan’s contract address, which we found out where to obtain ea
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 >Step7: Executing The Flash Loan
-Head back to Remix. Under the deployed Flash Loan contract, there’s another “flashloan” text field. This field takes a contract address of the asset we want to use. In our case it’s the Kovan Testnet’s DAI contract, which is 0xFf795577d9AC8bD7D90Ee22b6C1703490b6512FD. With that field correctly filled in, you can now hit the “transact” button below.
+
+Head back to Remix. Under the deployed Flash Loan contract, there’s another “flashloan” text field. This field takes a contract address of the asset we want to use. In our case it’s the Kovan Testnet’s DAI contract, which is ```0xFf795577d9AC8bD7D90Ee22b6C1703490b6512FD```. With that field correctly filled in, you can now hit the “transact” button below.
 Upon clicking the button, MetaMask should pop up asking for approval of the transaction. Confirm the transaction and you should be greeted by a success message. In Remix’s terminal you should see all the transcation details, and there you will be able to find this transcation(txn)hash then copy the it again go to: https://kovan.etherscan.io/ and then paste the txn hash in the search bar.
 ```⚠️Under “Tokens Transferred”, you should see three different transactions.⚠️```
 1. The first transaction highlights the transfer of 1 DAI from LendingPool to our contract.
