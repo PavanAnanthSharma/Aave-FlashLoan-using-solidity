@@ -72,7 +72,7 @@ In our case the Flash Loan contract is using an abstract contract called FlashLo
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 > Now to break down the code line by line.
-
+ 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1. First, we have to define the solidity compiler version. In this case, it's ^0.6.0.
      2-4. Importing dependencies for the smart contract
