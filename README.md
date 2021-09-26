@@ -21,7 +21,7 @@ This contains all the code to execute a successful flashloan on the Kovan test-n
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 > Step1:  
-Remix Setup
+Remix Setup 
 
 For the sake of simplicity, we will be using the Remix IDE (remix.ethereum.org).
 This is a browser-based IDE. Also known as an Integrated Development Environment.
@@ -96,7 +96,7 @@ In our case the Flash Loan contract is using an abstract contract called FlashLo
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 >Step4: Deploying The Contract
-
+ 
 First, open your MetaMask and set your network to "Kovan Test Network".
 Make sure you have kovan test ether to run the following transcation, please note this is Kovan test ether is to pay the gas fees for the flashloan.
 Get kovan test here if you do not have any test ether
