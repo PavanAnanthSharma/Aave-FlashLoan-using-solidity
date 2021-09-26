@@ -47,7 +47,7 @@ If the four steps outlined above are completed you are all ready to start writin
 ```
 ⚠️NOTE: FROM HERE STUFF GETS REALLY CRAZY AND TOUGH:⚠️
 
-```
+```  
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 > Step3: ```[VERY IMPORTANT]```
