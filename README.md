@@ -33,7 +33,7 @@ Before we start writing our smart contracts we will want to download a browser e
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 >Step2:
-MetaMask Setup
+MetaMask Setup  
 A step-by-step breakdown of how to install MetaMask.
 
 1.You will start by downloading the extension off of the chrome extension store.
