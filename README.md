@@ -2,7 +2,7 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
 ```
-Author: Pavan Ananth Sharma
+Author: Pavan Ananth Sharma 
 ```
 
 >What is a Flashloan?
@@ -20,7 +20,7 @@ This contains all the code to execute a successful flashloan on the Kovan test-n
 >Please follow along:
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-> Step1: 
+> Step1:  
 Remix Setup
 
 For the sake of simplicity, we will be using the Remix IDE (remix.ethereum.org).
