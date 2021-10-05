@@ -13,7 +13,7 @@ contract Withdrawable is Ownable {
     using SafeERC20 for ERC20;
     address constant ETHER = address(0);
 
-    event LogWithdraw(
+    event LogWithdraw( 
         address indexed _from,
         address indexed _assetAddress,
         uint amount
