@@ -1,4 +1,4 @@
-//Use the lisence here:  
+//Use the lisence here: MIT
 pragma solidity ^0.6.6;
 import "./FlashLoanReceiverBase.sol";
 import "./ILendingPoolAddressesProvider.sol";
