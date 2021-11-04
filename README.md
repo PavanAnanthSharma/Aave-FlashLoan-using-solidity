@@ -2,7 +2,7 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
 ```
-@dev/Author: Pavan Ananth Sharma  
+@Dev/Author: Pavan Ananth Sharma  
 ``` 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -13,7 +13,7 @@ Flash loan attacks refer to a smart contract exploit where an attacker takes out
  
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
->Why Flashloans?
+>Why Flashloans? 
 
 Some traders have successfully employed flash loans to speculate on new coins, without having to risk their own funds. And, because flash loans bundle several smart contract transactions into one, they can reduce transaction fees (which can add up to quite a bit).
 
