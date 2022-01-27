@@ -6,6 +6,12 @@ import "./ILendingPool.sol";
 
 contract FlashloanV1 is FlashLoanReceiverBaseV1 {
 
+  string _Real_Owner = "Pavan Ananth Sharma" ;
+    
+    function Owner_Of_This_Contract() public view returns(string memory){
+        return _Real_Owner;
+    }
+
     constructor(address _addressProvider) FlashLoanReceiverBaseV1(_addressProvider) public{}
 
  /**
