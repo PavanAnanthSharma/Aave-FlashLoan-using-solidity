@@ -45,6 +45,8 @@ contract FlashloanV1 is FlashLoanReceiverBaseV1 {
         // Your logic goes here.
         // !! Ensure that *this contract* has enough of `_reserve` funds to payback the `_fee` !!
         //
+        ERC20 dai = ERC20(_asset);
+        dai.approve(addressesProvider.getLendingPool(), 900000000000000000000000 );
 
         uint totalDebt = _amount.add(_fee);
         transferFundsBackToPoolInternal(_reserve, totalDebt);
