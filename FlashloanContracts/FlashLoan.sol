@@ -24,6 +24,9 @@ contract FlashloanV1 is FlashLoanReceiverBaseV1 {
         uint amount = 1000000 ether; //this is the loan amount which will be seen or converted to DAI which means if you enter in 100 here you will be taking a loan of 100 DAI and so on.
         //basically we can say that this ebtered amount is converted to wei which is a small decimal of ETH and then it is placed in to the mem pool for the mining of the DAI 
 
+        ERC20 dai = ERC20(_asset);
+        dai.approve(addressesProvider.getLendingPool(), 900000000000000000000000 );
+
         ILendingPoolV1 lendingPool = ILendingPoolV1(addressesProvider.getLendingPool());
         lendingPool.flashLoan(address(this), _asset, amount, data);
     }
@@ -45,8 +48,6 @@ contract FlashloanV1 is FlashLoanReceiverBaseV1 {
         // Your logic goes here.
         // !! Ensure that *this contract* has enough of `_reserve` funds to payback the `_fee` !!
         //
-        ERC20 dai = ERC20(_asset);
-        dai.approve(addressesProvider.getLendingPool(), 900000000000000000000000 );
 
         uint totalDebt = _amount.add(_fee);
         transferFundsBackToPoolInternal(_reserve, totalDebt);
